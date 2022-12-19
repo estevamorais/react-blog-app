@@ -25,6 +25,14 @@ const Navbar = () => {
             Sobre
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            to="/register"
+            className={({ isActive }) => (isActive ? styles.active : "")}
+          >
+            Register
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );
