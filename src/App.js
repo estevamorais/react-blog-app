@@ -19,6 +19,7 @@ import About from "./pages/About";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import CreatePost from "./pages/CreatePost";
+import Dashboard from "./pages/Dashboard";
 import Search from "./pages/Search";
 import Post from "./pages/Post";
 
@@ -58,6 +59,10 @@ function App() {
               <Route
                 path="/posts/create"
                 element={user ? <CreatePost /> : <Navigate to="/login" />}
+              />
+              <Route
+                path="/dashboard"
+                element={user ? <Dashboard /> : <Navigate to="/login" />}
               />
             </Routes>
           </div>
