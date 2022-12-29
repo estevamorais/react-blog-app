@@ -1,0 +1,15 @@
+.editPost {
+  text-align: center;
+}
+
+.previewTitle {
+  margin-bottom: 0.5rem;
+  color: #000;
+  font-weight: bold;
+}
+
+.previewImage {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
